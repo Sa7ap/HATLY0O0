@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../domain/usecases/send_merchant_otp_usecase.dart';
-import '../../../domain/usecases/verify_merchant_otp_usecase.dart';
+import '../../auth/domain/usecases/send_merchant_otp_usecase.dart';
+import '../../auth/domain/usecases/verify_merchant_otp_usecase.dart';
 import 'merchant_auth_event.dart';
 import 'merchant_auth_state.dart';
 

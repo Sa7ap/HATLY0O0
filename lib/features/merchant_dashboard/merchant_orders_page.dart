@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../customer/customer_orders/presentation/bloc/customer_order_bloc.dart';
-import '../../../customer/customer_orders/presentation/bloc/customer_order_event.dart';
-import '../../../customer/customer_orders/presentation/bloc/customer_order_state.dart';
+import '../customer/customer_orders/presentation/bloc/customer_order_bloc.dart';
+import '../customer/customer_orders/presentation/bloc/customer_order_event.dart';
+import '../customer/customer_orders/presentation/bloc/customer_order_state.dart';
 
 class MerchantOrdersPage extends StatefulWidget {
   const MerchantOrdersPage({super.key});

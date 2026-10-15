@@ -1,9 +1,9 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../../../auth/domain/usecases/get_driver_wallet_usecase.dart';
-import '../../../../auth/domain/usecases/get_driver_shifts_usecase.dart';
-import '../../../../auth/domain/entities/driver_shift_entity.dart';
+import '../../auth/domain/usecases/get_driver_wallet_usecase.dart';
+import '../../auth/domain/usecases/get_driver_shifts_usecase.dart';
+import '../../auth/domain/entities/driver_shift_entity.dart';
 import 'driver_wallet_event.dart';
 import 'driver_wallet_state.dart';
 

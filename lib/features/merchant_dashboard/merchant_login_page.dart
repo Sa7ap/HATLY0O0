@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'bloc/merchant_auth_bloc.dart';
 import 'bloc/merchant_auth_event.dart';
 import 'bloc/merchant_auth_state.dart';
-import 'merchant_verify_page.dart';
+import '../auth/presentation/merchant/merchant_verify_page.dart';
 
 class MerchantLoginPage extends StatefulWidget {
   const MerchantLoginPage({super.key});
