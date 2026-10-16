@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart'; // تم إضافة مكتبة �
 import 'bloc/merchant_auth_bloc.dart';
 import 'bloc/merchant_auth_event.dart';
 import 'bloc/merchant_auth_state.dart';
-import '../auth/presentation/merchant/merchant_home_page.dart';
+import 'merchant_home_page.dart';
 
 class MerchantVerifyPage extends StatefulWidget {
   final String phoneNumber;

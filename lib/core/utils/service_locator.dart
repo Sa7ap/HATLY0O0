@@ -44,11 +44,11 @@ import 'package:hatlyai/features/customer/wallet/domain/usecases/get_wallet_tran
 
 // استيرادات Blocs إدارة الحالة المستقرة بمشروعك
 import 'package:hatlyai/features/auth/presentation/customer/bloc/auth_bloc.dart';
-import 'package:hatlyai/features/driver_dashboard/bloc/driver_auth_bloc.dart';
-import 'package:hatlyai/features/merchant_dashboard/bloc/merchant_auth_bloc.dart';
-import 'package:hatlyai/features/merchant_dashboard/product_bloc/merchant_product_bloc.dart';
+import 'package:hatlyai/features/auth/presentation/driver/bloc/driver_auth_bloc.dart';
+import 'package:hatlyai/features/auth/presentation/merchant/bloc/merchant_auth_bloc.dart';
+import 'package:hatlyai/features/auth/presentation/merchant/product_bloc/merchant_product_bloc.dart';
 import 'package:hatlyai/features/customer/customer_orders/presentation/bloc/customer_order_bloc.dart';
-import 'package:hatlyai/features/driver_dashboard/wallet_bloc/driver_wallet_bloc.dart';
+import 'package:hatlyai/features/auth/presentation/driver/wallet_bloc/driver_wallet_bloc.dart';
 import 'package:hatlyai/features/customer/wallet/presentation/bloc/wallet_bloc.dart';
 
 final sl = GetIt.instance;

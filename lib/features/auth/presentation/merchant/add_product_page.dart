@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hatlyai/features/merchant_dashboard/product_bloc/merchant_product_bloc.dart';
-import 'package:hatlyai/features/merchant_dashboard/product_bloc/merchant_product_event.dart';
-import 'package:hatlyai/features/merchant_dashboard/product_bloc/merchant_product_state.dart';
+import 'package:hatlyai/features/auth/presentation/merchant/product_bloc/merchant_product_bloc.dart';
+import 'package:hatlyai/features/auth/presentation/merchant/product_bloc/merchant_product_event.dart';
+import 'package:hatlyai/features/auth/presentation/merchant/product_bloc/merchant_product_state.dart';
 
 class AddProductPage extends StatefulWidget {
   const AddProductPage({super.key});

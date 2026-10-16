@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../auth/domain/usecases/send_driver_otp_usecase.dart';
-import '../../auth/domain/usecases/verify_driver_otp_usecase.dart';
+import '../../../domain/usecases/send_driver_otp_usecase.dart';
+import '../../../domain/usecases/verify_driver_otp_usecase.dart';
 import 'driver_auth_event.dart';
 import 'driver_auth_state.dart';
 

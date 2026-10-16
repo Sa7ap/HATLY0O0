@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hatlyai/features/driver_dashboard/bloc/driver_auth_bloc.dart';
-import 'package:hatlyai/features/driver_dashboard/bloc/driver_auth_event.dart';
-import 'package:hatlyai/features/driver_dashboard/bloc/driver_auth_state.dart';
+import 'package:hatlyai/features/auth/presentation/driver/bloc/driver_auth_bloc.dart';
+import 'package:hatlyai/features/auth/presentation/driver/bloc/driver_auth_event.dart';
+import 'package:hatlyai/features/auth/presentation/driver/bloc/driver_auth_state.dart';
 
-import '../auth/presentation/driver/driver_verify_page.dart';
+import 'driver_verify_page.dart';
 
 class DriverLoginPage extends StatefulWidget {
   const DriverLoginPage({super.key});

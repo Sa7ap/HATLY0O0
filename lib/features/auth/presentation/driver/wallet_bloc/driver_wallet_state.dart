@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-import '../../auth/domain/entities/driver_shift_entity.dart';
+import '../../../../auth/domain/entities/driver_shift_entity.dart';
 
 abstract class DriverWalletState extends Equatable {
   const DriverWalletState();

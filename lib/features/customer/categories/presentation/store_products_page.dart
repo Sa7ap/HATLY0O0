@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 // استدعاء محرك الـ Bloc الخاص بمنتجات التاجر لربطه بشاشات العميل
-import 'package:hatlyai/features/merchant_dashboard/product_bloc/merchant_product_bloc.dart';
-import 'package:hatlyai/features/merchant_dashboard/product_bloc/merchant_product_state.dart';
+import 'package:hatlyai/features/auth/presentation/merchant/product_bloc/merchant_product_bloc.dart';
+import 'package:hatlyai/features/auth/presentation/merchant/product_bloc/merchant_product_state.dart';
 
 class StoreProductsPage extends StatefulWidget {
   final String storeName;

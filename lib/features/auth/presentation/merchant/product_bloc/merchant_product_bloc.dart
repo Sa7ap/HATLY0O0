@@ -1,9 +1,9 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../auth/domain/usecases/add_product_usecase.dart';
-import '../../auth/domain/usecases/get_merchant_stats_usecase.dart';
-import '../../auth/domain/usecases/get_merchant_orders_usecase.dart'; // استدعاء حالة استخدام جلب الطلبات
-import '../../auth/domain/usecases/update_merchant_order_status_usecase.dart'; // استدعاء حالة استخدام تحديث الطلبات
+import '../../../domain/usecases/add_product_usecase.dart';
+import '../../../domain/usecases/get_merchant_stats_usecase.dart';
+import '../../../domain/usecases/get_merchant_orders_usecase.dart'; // استدعاء حالة استخدام جلب الطلبات
+import '../../../domain/usecases/update_merchant_order_status_usecase.dart'; // استدعاء حالة استخدام تحديث الطلبات
 import 'merchant_product_event.dart';
 import 'merchant_product_state.dart';
 

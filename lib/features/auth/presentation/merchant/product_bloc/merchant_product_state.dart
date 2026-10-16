@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
-import '../../auth/domain/entities/merchant_stats_entity.dart';
-import '../../auth/domain/entities/merchant_order_entity.dart'; // استدعاء كيان طلبات التاجر الجديد
+import '../../../domain/entities/merchant_stats_entity.dart';
+import '../../../domain/entities/merchant_order_entity.dart'; // استدعاء كيان طلبات التاجر الجديد
 
 abstract class MerchantProductState extends Equatable {
   const MerchantProductState();
