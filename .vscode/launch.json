@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MAIN",
+            "request": "launch",
+            "type": "dart",
+            "program": "E:/projects/HATLY0O0/HATLY0O0/lib/main.dart",
+            "args": [
+                "--web-port=51983",
+                "--web-browser-flag=--app=http://localhost:51983"
+            ]
+        },
+        {
+            "name": "Customer",
+            "request": "launch",
+            "type": "dart",
+            "program": "E:/projects/HATLY0O0/HATLY0O0/lib/main_customer.dart",
+            "args": [
+                "--web-port=51984",
+                "--web-browser-flag=--app=http://localhost:51984"
+            ]
+        },
+        {
+            "name": "Driver",
+            "request": "launch",
+            "type": "dart",
+            "program": "E:/projects/HATLY0O0/HATLY0O0/lib/main_driver.dart",
+            "args": [
+                "--web-port=51985",
+                "--web-browser-flag=--app=http://localhost:51985"
+            ]
+        },
+        {
+            "name": "Merchant",
+            "request": "launch",
+            "type": "dart",
+            "program": "E:/projects/HATLY0O0/HATLY0O0/lib/main_merchant.dart",
+            "args": [
+                "--web-port=51986",
+                "--web-browser-flag=--app=http://localhost:51986"
+            ]
+        }
+    ]
+}

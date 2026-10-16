@@ -1,17 +1,17 @@
-// الجزء 1 من 1: كود ملف lib/main.dart المصحح هندسياً بالكامل
-// تم توجيه الواجهة مباشرة إلى WelcomePage لمنع تعارض MaterialApp المزدوج في فلاتر
-
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-import 'core/theme/app_theme.dart';
-import 'core/utils/service_locator.dart';
-import 'core/welcome_page.dart'; // استيراد المسار الصحيح لصفحة الترحيب الافتراضية بمشروعك
+import 'core/welcome_page.dart';
+import 'firebase_options.dart';
+
+// هذا هو المسار الفعلي والبرمجي الصحيح للملف
 
 void main() async {
+  // التأكد من تهيئة كل أدوات الفلاتر قبل تشغيل الكود
   WidgetsFlutterBinding.ensureInitialized();
 
-  // استدعاء دالة تهيئة الاعتمادات التراكمية الخاصة بمشروعك
-  await initServiceLocator();
+  // تفعيل الاتصال بـ Firebase بناءً على ملف الإعدادات اليدوي الذي أنشأناه
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   runApp(const MyApp());
 }
@@ -25,10 +25,13 @@ class MyApp extends StatelessWidget {
       title: 'تطبيق توصيل الطلبات',
       debugShowCheckedModeBanner: false,
 
-      // دمج نظام الهوية البصرية الموحد باللون البرتقالي
-      theme: AppTheme.lightTheme,
+      // دمج نظام الهوية البصرية الموحد باللون البرتقالي الخاص بمشروعك
+      theme: ThemeData(
+        primarySwatch: Colors.orange,
+        scaffoldBackgroundColor: Colors.white,
+      ),
 
-      // توجيه العميل إلى صفحة الترحيب مباشرة كأول شاشة يراها العميل عند فتح التطبيق
+      // التوجه مباشرة إلى صفحة الترحيب المخصصة في مشروعك
       home: const WelcomePage(),
     );
   }
